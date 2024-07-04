@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/styles/style.css" />
+    <link rel="stylesheet" href="./assests/styles/nav.css" />
+    <title>HTML 5 Intro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="pizza.html">Pizza Form</a></li>
+          <li>
+            <a href="table.html">Salary Table</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="pizza.html">Pizza Form</a></li>
+              <li>
+                <a href="table.html">Salary Table</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>This is about HTML Audio,Video and youtube video adding</h1>
+      <div class="audio">
+        <h2>This is audio zone</h2>
+        <audio
+          src="./assests/Ek Ladki Ko Dekha - 1942 A Love Story 320 Kbps.mp3"
+          controls
+        ></audio>
+      </div>
+      <div class="video">
+        <h2>This is video zone</h2>
+        <video
+          src="./assests/Yeh Raat Bheegi Bheegi - Sanam ft. Aishwarya Majmudar - Official HD Video - Raj Kapoor - Nargis Dutt.mp4"
+          controls
+          width="800px"
+        ></video>
+      </div>
+      <div class="youtube">
+        <h2>This is youtube zone</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/NKOO1MfSSQc?si=4RgTPN5F80AyYXUY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <h4>
+          We Will use iframe tag to connect youtube video to our webpage. An
+          inline frame (iFrame) is an element that loads another HTML element
+          inside of a web page
+        </h4>
+      </div>
+    </main>
+  </body>
+</html>

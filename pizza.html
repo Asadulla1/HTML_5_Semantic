@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/styles/nav.css" />
+    <title>This is a simple Pizza Form</title>
+    <style>
+      .pizza-form {
+        margin: 0px auto;
+        text-align: center;
+      }
+      form > label {
+        display: block;
+        margin: 10px;
+      }
+      fieldset > label {
+        display: inline-block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="pizza.html">Pizza Form</a></li>
+          <li>
+            <a href="table.html">Salary Table</a>
+            <ul class="dropdown">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="pizza.html">Pizza Form</a></li>
+              <li>
+                <a href="table.html">Salary Table</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="pizza-form">
+        <h1>Pizza Form</h1>
+        <form action="">
+          <label for="fname:"
+            >First Name:
+            <input type="text" id="fname" />
+          </label>
+          <label for="email"
+            >Email:
+            <input type="email" id="email" />
+          </label>
+          <fieldset>
+            <legend>Crust</legend>
+            <label for="Thin">
+              <input type="radio" name="crust" id="Thin" />Thin
+            </label>
+            <label for="Classic">
+              <input type="radio" name="crust" id="classic" />Classic
+            </label>
+            <label for="Deep_dish">
+              <input type="radio" name="crust" id="Deep_dish" />Thin
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Toppings</legend>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+            <label for="toopings">
+              <input type="checkbox" name="toopings" id="Sausage" />Sausage
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Comment</legend>
+            <textarea
+              name="comment"
+              id="Comment"
+              placeholder="Type your comment here"
+              cols="80"
+              rows="20"
+            ></textarea>
+          </fieldset>
+          <input type="submit" value="submit" />
+          <input type="Reset" value="Reset" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
